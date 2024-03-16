@@ -2,11 +2,11 @@
 import time
 import os
 
-path = '/home/pi/papeBt/mac.txt'
+path = 'mac.txt'
 mac_file = open(path, 'r')
 attackmac = mac_file.read()
 
-path = '/home/pi/papeBt/attacktime.txt'
+path = 'attacktime.txt'
 atk_file = open(path, 'r')
 attacktime = atk_file.read()
 attacktimeint = int(attacktime)
