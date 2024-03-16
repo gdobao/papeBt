@@ -8,7 +8,7 @@ import subprocess
 
 attacktime = 1*60		#one minute, you can change that
 attacktimestr = str(attacktime)
-path = '/home/pi/papeBt/attacktime.txt'		#you need to create this file, I've been to lazy letting it create one and then check every time if its there
+path = 'attacktime.txt'		#you need to create this file, I've been to lazy letting it create one and then check every time if its there
 atk_file = open(path, 'w')
 atk_file.write(attacktimestr)
 atk_file.close()
@@ -72,7 +72,7 @@ elif userinput == "8":
 elif userinput == "9":
     attackmac = mac9
 
-path = '/home/pi/papeBt/mac.txt'					#you need to create this file, I've been to lazy letting it create one and then check every time if its there
+path = 'mac.txt'					#you need to create this file, I've been to lazy letting it create one and then check every time if its there
 mac_file = open(path, 'w')
 mac_file.write(attackmac)
 mac_file.close()
